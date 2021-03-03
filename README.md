@@ -1,9 +1,9 @@
-# cabifyMobileChallenge
-First test for cabify android engineer job application
+# MobileChallenge
+Primeiro teste para o aplicativo de trabalho de engenheiro Android
 
-# Android native application using architecture MVVM builded with Kotlin language
+# Aplicativo nativo Android usando arquitetura MVVM construída com a linguagem Kotlin
 
-## Attends Google design recommendations with
+## Recomendações de design do Google com
 - LiveData
 - ViewModels
 - Observable Objects
