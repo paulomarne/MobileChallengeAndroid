@@ -35,5 +35,5 @@ Compartilhe objetos LiveData entre Fragments usando viewModels nesta pasta, voc�
 
 ## Usando github application:
 
-Você pode escolher todos os produtos que desejar no catálogo de produtos (essas informações são carregadas usando a API REST do Cabify) 39 - quando seus produtos forem selecionados, você poderá vê-los na guia Pedido e removê-los da lista com uma guia simples sobre a descrição do item. 40 - Os descontos e o total do pedido serão atualizados com cada produto que você adicionar ou remover da lista de produtos ou da lista de detalhes do pedido. 41 - finalize seu pedido com a guia sobre o botão "faça seu pedido" e remova tudo do seu carrinho.
+Você pode escolher todos os produtos que desejar no catálogo de produtos (essas informações são carregadas usando a API REST do Github) 39 - quando seus produtos forem selecionados, você poderá vê-los na guia Pedido e removê-los da lista com uma guia simples sobre a descrição do item. 40 - Os descontos e o total do pedido serão atualizados com cada produto que você adicionar ou remover da lista de produtos ou da lista de detalhes do pedido. 41 - finalize seu pedido com a guia sobre o botão "faça seu pedido" e remova tudo do seu carrinho.
 
