@@ -27,16 +27,13 @@ Eu usei "pojos" em kotlin (classe de dados) para a representação de dados reai
 ## Repositórios:
 Os repositórios possuem lógica para obter, processar e compartilhar informações com domínio do App, no meu caso, tive três grandes entidades de 29 informações: Produtos de catálogo, pedido e descontos esses objetos foram manipulados usando Retrofit para rede, couchbase lite para persistência de banco de dados e LiveData para sincronia.
 
-## UI:
-The app's User interfaces are stored in folder "ui" you can find a main activity (tabbet for navigation), final activity (dummy paid feedback) and set of Fragments for show cabify products and order's details, also i divided recycleViews adapter in a diferent directory for Readability. 
+## Interfaces do Usuário:
+As interfaces de usuário do aplicativo são armazenadas na pasta "ui", você pode encontrar uma atividade principal (tabbet para navegação), atividade final (feedback pago fictício) e conjunto de fragmentos para mostrar produtos e detalhes do pedido, também dividi o adaptador recycleViews em um adaptador diferente diretório para legibilidade.
 
 ## ViewModels:
-Share LiveData objects between Fragments using viewModels in this folder you can find the classes what i did use for this task.
+Compartilhe objetos LiveData entre Fragments usando viewModels nesta pasta, você pode encontrar as classes que usei para esta tarefa.
 
-## Using cabify store application:
+## Usando github application:
 
-- You might pick every product would you like from product catalog, (this info is loaded using Cabify REST api)
-- when your products have been selected you can see then at Order tab and remove from list with simple tab over item description.
-- Order's discounts and Total will be updated with every product you add or remove from product list or Order's detail list.
-- finish your order with tab over "place your order " button an remove all from your cart.
+Você pode escolher todos os produtos que desejar no catálogo de produtos (essas informações são carregadas usando a API REST do Cabify) 39 - quando seus produtos forem selecionados, você poderá vê-los na guia Pedido e removê-los da lista com uma guia simples sobre a descrição do item. 40 - Os descontos e o total do pedido serão atualizados com cada produto que você adicionar ou remover da lista de produtos ou da lista de detalhes do pedido. 41 - finalize seu pedido com a guia sobre o botão "faça seu pedido" e remova tudo do seu carrinho.
 
