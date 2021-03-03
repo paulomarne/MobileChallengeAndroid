@@ -8,15 +8,15 @@ Primeiro teste para o aplicativo de trabalho de engenheiro Android
 - ViewModels
 - Observable Objects
 
-## structure and design:
+## Estrutura e Design:
 [![An old rock in the desert](https://miro.medium.com/max/567/1*4EgdWEoVDFtQxQiU9Dk-eg.png)](https://medium.com/m)
 
-Also I did use:
+Também use:
 
-- Couchbase Lite 2.5 for data persistence
-- Retrofit2 for http requests
-- Anko Layouts for look&Feel
-- Android API 29 for debugging
+- Couchbase Lite 2.5 para persistencia de dados
+- Retrofit2 para http requests
+- Anko Layouts para look&Feel
+- Android API 29 para debugging
 
 ## App description:
 Cabify Store App, i followed the MVVM pattern, which tries to decouple the retrieval of data, view logic, and presentation into three areas. For software development reason and relax coding i did use the next configuration:
