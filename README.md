@@ -2,6 +2,9 @@
 Primeiro teste para o aplicativo de trabalho de engenheiro Android
 
 # Aplicativo nativo Android usando arquitetura MVVM construída com a linguagem Kotlin
+1 - Primeiro, faça um fork deste projeto para sua conta no GitHub (crie uma se você não possuir).
+2 - Em seguida, implemente o projeto tal qual descrito abaixo, em seu próprio fork.
+3 - Por fim, empurre todas as suas alterações para o seu fork no GitHub e envie um pull request para este repositório original. Se você já entrou em contato com alguém da companhia sobre uma vaga, avise também essa pessoa por email, incluindo no email o seu usuário no GitHub.
 
 ## Recomendações de design do Google com
 - LiveData
@@ -35,5 +38,4 @@ Compartilhe objetos LiveData entre Fragments usando viewModels nesta pasta, voc�
 
 ## Usando github application:
 
-Você pode escolher todos os produtos que desejar no catálogo de produtos (essas informações são carregadas usando a API REST do Github) 39 - quando seus produtos forem selecionados, você poderá vê-los na guia Pedido e removê-los da lista com uma guia simples sobre a descrição do item. 40 - Os descontos e o total do pedido serão atualizados com cada produto que você adicionar ou remover da lista de produtos ou da lista de detalhes do pedido. 41 - finalize seu pedido com a guia sobre o botão "faça seu pedido" e remova tudo do seu carrinho.
-
+Você pode escolher todos os produtos que desejar no catálogo de produtos (essas informações são carregadas usando a API REST do Github).
