@@ -18,15 +18,14 @@ Também use:
 - Anko Layouts para look&Feel
 - Android API 29 para debugging
 
-## App description:
-Cabify Store App, i followed the MVVM pattern, which tries to decouple the retrieval of data, view logic, and presentation into three areas. For software development reason and relax coding i did use the next configuration:
+## Descrição do APP:
+Utilizando as APIs do Github, segui o padrão MVVM, que tenta separar a recuperação de dados, a lógica de exibição e a apresentação em três áreas. Por motivos de desenvolvimento de software e codificação relaxante, usei a próxima configuração:
 
-## Data:
-I did use "pojos" in kotlin (data class) for the real data representation and object abstraction, these objects used for retrive all types information (database and dummy) to interact with UI and UX. you can find it in "data" folder.
+## Dados:
+Eu usei "pojos" em kotlin (classe de dados) para a representação de dados reais e abstração de objetos, esses objetos usados ​​para recuperar todos os tipos de informações (banco de dados e fictícios) para interagir com UI e UX. você pode encontrá-lo na pasta "data".
 
-## Repositories:
-The repositories have logic for getting, process and share information with domain of App, in my case, i had three big entities of
-information: Products of catalog, Order, and Discounts these objects were manipulated using Retrofit for networking, couchbase lite for database persistence and LiveData for synchrony. 
+## Repositórios:
+Os repositórios possuem lógica para obter, processar e compartilhar informações com domínio do App, no meu caso, tive três grandes entidades de 29 informações: Produtos de catálogo, pedido e descontos esses objetos foram manipulados usando Retrofit para rede, couchbase lite para persistência de banco de dados e LiveData para sincronia.
 
 ## UI:
 The app's User interfaces are stored in folder "ui" you can find a main activity (tabbet for navigation), final activity (dummy paid feedback) and set of Fragments for show cabify products and order's details, also i divided recycleViews adapter in a diferent directory for Readability. 
