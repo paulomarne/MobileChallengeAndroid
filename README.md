@@ -22,7 +22,19 @@ Também use:
 - Android API 29 para debugging
 
 ## Descrição do APP:
-Utilizando as APIs do Github, segui o padrão MVVM, que tenta separar a recuperação de dados, a lógica de exibição e a apresentação em três áreas. Por motivos de desenvolvimento de software e codificação relaxante, usei a próxima configuração:
+Utilizando as APIs do Github [API do GitHub](https://developer.github.com/v3/), seguir o padrão MVVM, que tenta separar a recuperação de dados, a lógica de exibição e a apresentação em três áreas. Por motivos de desenvolvimento de software e codificação relaxante, usei a próxima configuração:
+
+O aplicativo deve exibir inicialmente uma lista paginada dos repositórios, ordenados por popularidade decrescente (exemplo de chamada da API: `https://api.github.com/search/repositories?q=language:Java&sort=stars&page=1`).
+
+Cada repositório deve exibir Nome do repositório, Descrição do Repositório, Nome / Foto do autor, Número de Stars, Número de Forks.
+
+Ao tocar em um item, deve levar a lista de Pull Requests do repositório. Cada item da lista deve exibir Nome / Foto do autor do PR, Título do PR, Data do PR e Body do PR.
+
+Ao tocar em um item, deve abrir no browser a página do Pull Request em questão.
+
+Você pode se basear neste mockup para criar as telas:
+
+![mockup](https://github.com/igsurf/mobile-challenge/blob/master/mockup-ios.png)
 
 ## Dados:
 Eu usei "pojos" em kotlin (classe de dados) para a representação de dados reais e abstração de objetos, esses objetos usados ​​para recuperar todos os tipos de informações (banco de dados e fictícios) para interagir com UI e UX. você pode encontrá-lo na pasta "data".
